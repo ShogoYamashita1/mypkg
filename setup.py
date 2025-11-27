@@ -1,5 +1,6 @@
 from setuptools import find_packages, setup
 import os
+from glob import glob      #追加。グロブ（ワイルドカード）を扱う関数
 
 package_name = 'mypkg'
 
